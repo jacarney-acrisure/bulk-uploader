@@ -27,7 +27,7 @@ Avalon’s deployment strategy leverages App Service slots, allowing seamless up
 
 The BulkUploader system for Avalon consists of multiple Azure resources including App Services, Application Insights, and supporting monitoring solutions for handling secure, scalable bulk upload operations.
 
-## Architecture Diagram
+## Architecture Diagram Current State
 
 ```mermaid
 graph TB
