@@ -77,16 +77,6 @@ graph TB
 ### Shared Dashboard
 - **1f35c3a9-fa1b-4384-bd4c-86b-a9c2cfd30-dashboard**: Centralized monitoring dashboard for all services
 
-### App Services
-1. **acc-bulkuploader**: Main bulk upload service
-   - **Slots**:
-     - avalon: Likely a staging or testing slot
-     - acp: Another deployment slot (possibly for A/B testing or blue-green deployment)
-
-2. **acc-bulkuploaderapi**: API service for bulk upload operations
-   - **Slots**:
-     - v6: Version 6 deployment slot
-
 ### Application Insights
 - **acc-bulkuploader**: Telemetry and monitoring for the main service
 - **acc-bulkuploaderapi**: Telemetry and monitoring for the API service
